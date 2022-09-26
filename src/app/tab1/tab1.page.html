@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button auto-hide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+      <ion-button>
+        <ion-icon
+          slot="icon-only"
+          ios="ellipsis-horizontal"
+          md="ellipsis-vertical"
+        ></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title>WaveLocation</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <ion-list>
+    <ion-list-header> Postagens Recentes </ion-list-header>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img
+          src="https://ionicframework.com/docs/demos/api/list/avatar-finn.png"
+        />
+      </ion-avatar>
+      <ion-label>
+        <h2>John</h2>
+        <p>Varias ondas legais onde estou...</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img
+          src="https://ionicframework.com/docs/demos/api/list/avatar-han.png"
+        />
+      </ion-avatar>
+      <ion-label>
+        <h2>Peter</h2>
+        <p>Mar calmo sem onda :(</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img
+          src="https://ionicframework.com/docs/demos/api/list/avatar-rey.png"
+        />
+      </ion-avatar>
+      <ion-label>
+        <h2>Anna</h2>
+        <p>Chuvendo bastante, vai brotar umas ondas massa</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img
+          src="https://ionicframework.com/docs/demos/api/list/avatar-luke.png"
+        />
+      </ion-avatar>
+      <ion-label>
+        <h2>Sam</h2>
+        <p>Nada por aqui vamos dar um role depois</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-fab horizontal="start" vertical="bottom" slot="fixed">
+    <ion-fab-button color="blue">
+      <ion-icon md="caret-up" ios="chevron-up-circle-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-item>
+        <ion-label position="stacked">Postar Sua Localidade</ion-label>
+        <ion-textarea placeholder="placeholder"></ion-textarea>
+      </ion-item>
+    </ion-fab-list>
+  </ion-fab>
+</ion-content>
